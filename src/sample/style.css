@@ -1,0 +1,642 @@
+#gridPane {
+    -fx-background-image: url("resources/blankbg.png");
+}
+
+#createPane {
+    -fx-background-image: url("resources/createbg.png");
+}
+
+#modifyPane {
+    -fx-background-image: url("resources/modifybg.png");
+}
+
+#settingsPane {
+    -fx-background-image: url("resources/settingsbg.png");
+}
+
+#errorPane {
+    -fx-background-image: url("resources/error.png");
+}
+
+#searchingPane {
+    -fx-background-image: url("resources/searching.png");
+}
+
+#movieExistsPane {
+    -fx-background-image: url("resources/titleexists.png");
+}
+
+#animeOptions {
+    -fx-background-image: url("resources/animeoptions.png");
+}
+
+#epCount {
+    -fx-background-image: url("resources/epcount.png");
+}
+
+#ovaCount {
+    -fx-background-image: url("resources/ovacount.png");
+}
+
+.root {
+    -fx-background-color: transparent;
+}
+
+#closeButton {
+     -fx-background-color: transparent;
+     -fx-border-color: transparent;
+     -fx-background-image: url("resources/close.png");
+ }
+
+#closeButton:hover {
+    -fx-background-image: url("resources/closeover.png");
+}
+
+#closeButton:pressed {
+    -fx-background-image: url("resources/closeclicked.png");
+}
+
+#errorPaneButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#errorPaneButton:hover {
+    -fx-background-image: url("resources/dismisshover.png");
+}
+
+#errorPaneButton:pressed {
+    -fx-background-image: url("resources/dismissclicked.png");
+}
+
+#dirButton0, #dirButton1, #dirButton2 {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#dirButton0:hover, #dirButton1:hover, #dirButton2:hover {
+    -fx-background-image: url("resources/dirhover.png");
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+    -fx-background-color: transparent;
+    -fx-color: transparent;
+    -fx-underline: false;
+}
+
+#dirButton0:pressed, #dirButton1:pressed, #dirButton2:pressed {
+    -fx-background-image: url("resources/dirclicked.png");
+    -fx-border-color: transparent;
+    -fx-border-width: 0px;
+}
+
+#greeting {
+    -fx-background-image: url("resources/greeting.png");
+}
+
+#helpPane {
+    -fx-background-image: url("resources/helpPane.png");
+}
+
+#applyButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-image: url("resources/apply.png");
+}
+
+#applyButton:hover {
+    -fx-background-image: url("resources/applyhover.png");
+}
+
+#applyButton:pressed {
+    -fx-background-image: url("resources/applyclicked.png");
+}
+
+#settingsButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-image: url("resources/settingsbutton.png");
+}
+
+#settingsButton:hover {
+    -fx-background-image: url("resources/settingsbuttonover.png");
+}
+
+#settingsButton:pressed {
+    -fx-background-image: url("resources/settingsbuttonclicked.png");
+}
+
+#helpToggle, #helpToggle:selected {
+    -fx-background-image: url("resources/help.png");
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+#helpToggle:hover, #helpToggle:selected:hover {
+    -fx-background-image: url("resources/helphover.png");
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+#helpToggle:pressed, #helpToggle:selected:pressed {
+    -fx-background-image: url("resources/helpclicked.png");
+    -fx-border-color: transparent;
+    -fx-background-color: transparent;
+}
+
+#minimizeButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-image: url("resources/minimize.png");
+}
+
+#minimizeButton:hover {
+    -fx-background-image: url("resources/minimizeover.png");
+}
+
+#minimizeButton:pressed {
+    -fx-background-image: url("resources/minimizeclicked.png");
+}
+
+#sourceButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#sourceButton:hover {
+    -fx-background-image: url("resources/sourcehover.png");
+}
+
+#sourceButton:pressed {
+    -fx-background-image: url("resources/sourceclicked.png");
+}
+
+#subtitlesButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#subtitlesButton:hover {
+    -fx-background-image: url("resources/subshover.png");
+}
+
+#subtitlesButton:pressed {
+    -fx-background-image: url("resources/subsclicked.png");
+}
+
+#addButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#addButton:hover {
+    -fx-background-image: url("resources/addhover.png");
+}
+
+#addButton:pressed {
+    -fx-background-image: url("resources/addclicked.png");
+}
+
+#startButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#startButton:hover {
+    -fx-background-image: url("resources/starthover.png");
+}
+
+#startButton:pressed {
+    -fx-background-image: url("resources/startclickedr.png");
+}
+
+#startAndButton {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#startAndButton:hover {
+    -fx-background-image: url("resources/startandhover.png");
+}
+
+#startAndButton:pressed {
+    -fx-background-image: url("resources/startandclicked.png");
+}
+
+.check-box .box {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.check-box > .box > .mark {
+    -fx-background-color: transparent;
+    -fx-shape: "";
+}
+
+.radio-button > .radio {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-image: null;
+}
+
+.radio-button > .radio > .dot {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-image: null;
+}
+
+#mediaTypeSelect1 {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#mediaTypeSelect1:hover {
+    -fx-background-image: url("resources/moviehover.png");
+}
+
+#mediaTypeSelect1:selected {
+    -fx-background-image: url("resources/movieselected.png");
+}
+
+#mediaTypeSelect1:selected:hover {
+    -fx-background-image: url("resources/movieselectedhover.png");
+}
+
+#mediaTypeSelect2 {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#mediaTypeSelect2:hover {
+    -fx-background-image: url("resources/tvhover.png");
+}
+
+#mediaTypeSelect2:selected {
+    -fx-background-image: url("resources/tvselected.png");
+}
+
+#mediaTypeSelect2:selected:hover {
+    -fx-background-image: url("resources/tvselectedhover.png");
+}
+
+#mediaTypeSelect3 {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#mediaTypeSelect3:hover {
+    -fx-background-image: url("resources/animehover.png");
+}
+
+#mediaTypeSelect3:selected {
+    -fx-background-image: url("resources/animeselected.png");
+}
+
+#mediaTypeSelect3:selected:hover {
+    -fx-background-image: url("resources/animeselectedhover.png");
+}
+
+#taskMediaCreate {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#taskMediaCreate:hover {
+    -fx-background-image: url("resources/createhover.png");
+}
+
+#taskMediaCreate:selected {
+    -fx-background-image: url("resources/createselected.png");
+}
+
+#taskMediaCreate:selected:hover {
+    -fx-background-image: url("resources/createselectedhover.png");
+}
+
+#taskMediaModify {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#taskMediaModify:hover {
+    -fx-background-image: url("resources/modifyhover.png");
+}
+
+#taskMediaModify:selected {
+    -fx-background-image: url("resources/modifyselected.png");
+}
+
+#taskMediaModify:selected:hover {
+    -fx-background-image: url("resources/modifyselectedhover.png");
+}
+
+#radioSelect {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#radioSelect:hover {
+    -fx-background-image: url("resources/radiohover.png");
+}
+
+#radioSelect:selected {
+    -fx-background-image: url("resources/radioselected.png");
+}
+
+#radioSelect:selected:hover {
+    -fx-background-image: url("resources/radioselectedhover.png");
+}
+
+#resultsSelect1 {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#resultsSelect1:hover {
+    -fx-background-image: url("resources/result1hover.png");
+}
+
+#resultsSelect1:selected {
+    -fx-background-image: url("resources/result1clicked.png");
+}
+
+#resultsSelect1:selected:hover {
+    -fx-background-image: url("resources/result1clickedhover.png");
+}
+
+#resultsSelect2 {
+    -fx-background-image: url("resources/result2.png");
+}
+
+#resultsSelect2:hover {
+    -fx-background-image: url("resources/result2hover.png");
+}
+
+#resultsSelect2:selected {
+    -fx-background-image: url("resources/result2clicked.png");
+}
+
+#resultsSelect2:selected:hover {
+    -fx-background-image: url("resources/result2clickedhover.png");
+}
+
+#resultsSelect3 {
+    -fx-background-image: url("resources/result3.png");
+}
+
+#resultsSelect3:hover {
+    -fx-background-image: url("resources/result3hover.png");
+}
+
+#resultsSelect3:selected {
+    -fx-background-image: url("resources/result3clicked.png");
+}
+
+#resultsSelect3:selected:hover {
+    -fx-background-image: url("resources/result3clickedhover.png");
+}
+
+#resultsSelect4 {
+    -fx-background-image: url("resources/result4.png");
+}
+
+#resultsSelect4:hover {
+    -fx-background-image: url("resources/result4hover.png");
+}
+
+#resultsSelect4:selected {
+    -fx-background-image: url("resources/result4clicked.png");
+}
+
+#resultsSelect4:selected:hover {
+    -fx-background-image: url("resources/result4clickedhover.png");
+}
+
+#resultsSelect5 {
+    -fx-background-image: url("resources/result5.png");
+}
+
+#resultsSelect5:hover {
+    -fx-background-image: url("resources/result5hover.png");
+}
+
+#resultsSelect5:selected {
+    -fx-background-image: url("resources/result5clicked.png");
+}
+
+#resultsSelect5:selected:hover {
+    -fx-background-image: url("resources/result5clickedhover.png");
+}
+
+#appleLogo {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-image: url("resources/logo2.png");
+}
+
+#settingsText {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+    -fx-border-color: transparent;
+    -fx-font-family: Montserrat;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 12px;
+}
+
+#searchText {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+    -fx-border-color: transparent;
+    -fx-font-family: Montserrat;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 26px;
+}
+
+#searchText {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+    -fx-border-color: transparent;
+    -fx-font-family: Montserrat;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 26px;
+}
+
+#titleText {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+    -fx-border-color: transparent;
+    -fx-font-family: Montserrat;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+}
+
+#dateText {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+    -fx-border-color: transparent;
+    -fx-font-family: Montserrat;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 18px;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+#descText {
+    -fx-background-color: transparent;
+    -fx-background-image: null;
+    -fx-border-color: transparent;
+    -fx-font-family: Montserrat;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+.table-row-cell, .table-row-cell:odd{
+    -fx-background-color: #535353;
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view, .table-view .filler, .table-view:focused {
+    -fx-background-color: transparent;
+}
+
+#mediaQueue {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .column-header-background,
+.tree-table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .arrow {
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+    -fx-shape: " ";
+}
+
+#mediaQueue .column-header {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+#mediaQueueSubs {
+    -fx-alignment: center;
+}
+
+#mediaQueueStatus {
+    -fx-alignment: center;
+}
+
+#mediaQueueTitle .label {
+    -fx-background-image: url("resources/titlebg.png");
+}
+
+#mediaQueueSubs .label {
+    -fx-background-image: url("resources/subsbg.png");
+}
+
+#mediaQueuePathL .label {
+    -fx-background-image: url("resources/localpathbg.png");
+}
+
+#mediaQueuePathR .label {
+    -fx-background-image: url("resources/remotepathbg.png");
+}
+
+#mediaQueueStatus .label {
+    -fx-background-image: url("resources/statusbg.png");
+}
+
+.table-view .column-header,
+.tree-table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header-background .label {
+    -fx-background-color: transparent;
+    -fx-text-fill: transparent;
+}
+
+.table-view .scroll-bar:vertical .track, .table-view .scroll-bar:vertical .track-background {
+ -fx-background-color: #393939;
+}
+
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color: #c91f1f;
+    -fx-background-insets: 3,0,0,0;
+    -fx-background-radius: 0em;
+}
+
+.table-view .scroll-bar .increment-button, .table-view .scroll-bar .decrement-button {
+    -fx-opacity: 0;
+}
+
+.table-view .column-drag-header {
+    -fx-background: transparent;
+    -fx-background-color: darkgray;
+    -fx-border-color: transparent;
+    -fx-opacity: 0.6;
+    -fx-accent: green;
+    -fx-focus-color: green;
+}
+
+/* Semi-transparent overlay to indicate the column that is currently being moved */
+.table-view .column-overlay {
+    -fx-background-color: darkgray;
+    -fx-border-color: transparent;
+    -fx-opacity: 0.3;
+    -fx-accent: green;
+    -fx-focus-color: dodgerblue;
+}
+
+
+    /*#searchText .text {*/
+    /*-fx-stroke-width: 1px;*/
+    /*-fx-stroke: #393939;*/
+/*}*/
+
+/*#appleLogo:hover {*/
+    /*-fx-background-image: url("resources/logoover.png");*/
+/*}*/
+
+
+
+/*.table-view:focused .table-row-cell:filled:focused:selected {*/
+    /*-fx-text-fill: #c91f1f;*/
+/*}*/
+
+.table-view:focused .table-row-cell:filled:selected .table-cell {
+    -fx-background-color: #c91f1f;
+}
+
+.table-view .table-row-cell:hover .table-cell {
+    -fx-background-color: #393939;
+}
